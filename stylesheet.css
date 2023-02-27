@@ -1,0 +1,106 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 750px;
+  height: 550px;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  top: 175px;
+}
+
+.column {
+  flex-basis: 50%;
+}
+
+.column1 {
+  order: 2;
+  padding: 15px 70px 0px 40px;
+}
+
+.column2 {
+  order: 1;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  color: hsl(228, 12%, 48%);
+  letter-spacing: 5px;
+  position: relative;
+  top: 10px;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 40px;
+  line-height: 40px;
+  width: 250px;
+}
+
+h3 {
+  font-size: 40px;
+  font-family: "Fraunces", serif;
+  color: hsl(119, 76%, 29%);
+}
+
+h4 {
+  font-size: 16px;
+  font-family: "Fraunces", serif;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  position: relative;
+  top: 33px;
+  left: 30px;
+}
+
+.prices {
+  display: flex;
+  position: relative;
+  bottom: 50px;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  word-spacing: 1px;
+  color: hsl(229, 18%, 59%);
+  line-height: 34px;
+  position: relative;
+  bottom: 10px;
+}
+
+.fotka {
+  height: 550px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.cart {
+  width: 300px;
+  height: 55px;
+  border-radius: 10px;
+  border-color: hsl(119, 76%, 29%);
+  background-color: hsl(119, 76%, 29%);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  position: relative;
+  bottom: 60px;
+}
+
+.cartImage {
+  position: relative;
+  top: 2px;
+  right: 6px;
+}
+
+.cart:hover {
+  background-color: hsl(127, 81%, 14%);
+  cursor: pointer;
+}
